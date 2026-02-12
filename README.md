@@ -28,7 +28,7 @@ docker compose version
 ## 📥 Step 1 — Clone the Repository
 
 ```bash
-git clone <REPO_URL>
+git clone https://github.com/kashi211/synthea-appointments.git
 cd synthea-appointments
 ```
 
