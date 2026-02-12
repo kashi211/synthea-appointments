@@ -41,7 +41,7 @@ cd synthea-appointments
 This builds Synthea + Python + the appointment enrichment logic.
 
 ```bash
-docker compose build
+docker compose up --build
 ```
 
 > ⚠️ You only need to do this **once**, unless the code changes.
