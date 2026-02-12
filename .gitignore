@@ -51,3 +51,12 @@ src/main/resources/export/outpatient_rev_cntr_code_map.json
 
 # VS Code plugin files
 .history
+# Python
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
+
+# Docker (optional)
+.env
