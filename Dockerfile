@@ -16,4 +16,4 @@ RUN chmod +x run_synthea generate_with_appointments.sh
 ENTRYPOINT ["bash", "generate_with_appointments.sh"]
 
 # Defaults (can be overridden)
-CMD ["10", "2"]
+CMD ["10", "50"]

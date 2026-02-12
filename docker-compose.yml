@@ -4,8 +4,5 @@ services:
   synthea:
     build: .
     container_name: synthea-generator
-    environment:
-      PATIENTS: ${PATIENTS:-10}
-      MAX_BUNDLE_MB: ${MAX_BUNDLE_MB:-2}
     volumes:
       - ./output:/app/output
